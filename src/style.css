@@ -1,0 +1,287 @@
+@charset__"UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Baloo+2&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap');
+
+
+:root{
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: 'Archivo Black', sans-serif;
+  --fonte3: 'Baloo 2', cursive;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  font-family: var(--fonte1);
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  background: rgba(0, 0, 0, 0.100);
+  position: sticky;
+  top: 0px;
+  backdrop-filter: blur(37px);
+  justify-content: space-around;
+  height: 6rem;
+}
+
+a {
+  
+}
+
+.a_ul{
+  text-decoration: none;
+  color: black;
+  padding: 0.7rem;
+  font-family:var(--fonte2);
+  border: 2px solid #667c89;
+  border-radius: 9px;
+}
+
+.a_ul::after{
+  content: '';
+}
+
+.a_ul:hover {
+  background: #667c89;
+  color: white;
+  transition: 0.5s;
+}
+
+.p_sobre {
+  text-align: justify;
+  font-family: 'Archivo Black';
+  color: #1c242e;
+  line-height: 1em ;
+}
+
+div.div_sobre_central{
+  max-width: 113rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 2rem;
+}
+
+div.sobre_img_txt{
+  border: 2px solid white;
+  width: 23rem;
+  height: 26rem;
+  margin-top: 1rem;
+}
+
+div.sobre_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div_Formações {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.div_Historico {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+  gap: 1rem;
+  padding: 0;
+}
+
+div.sobre_div {
+}
+
+.h5_sobre{
+  background: white;
+  color: #667c89;
+}
+
+h1.h1 {
+  color: black;
+  padding: 2rem;
+  margin: 0;
+}
+
+h1.sobre_h1 {
+  font-size: xxx-large;
+  font-family: 'Baloo';
+  color: #1c242e;
+  padding-bottom: 1rem;
+}
+
+h5 {
+  font-size: xx-large;
+  color: #667c89;
+  font-family: 'Baloo'
+}
+
+.h5_Formações{
+}
+
+.h5_Historico{
+}
+
+.img_perfil {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: list-item;
+  list-style: none;
+}
+
+.div_text {
+  text-align: justify;
+  font-family: var(--fonte2);
+  color: #1c242e;
+}
+
+section {
+  min-height: 70vh;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+section.sobre {
+  background: linear-gradient(90deg, rgba(102,124,137,1) 0%, rgba(102,124,137,1) 27%, rgba(255,255,255,1) 77%);
+  animation: animate 10s ease infinite;
+  background-size: 600% 600%;
+  height: 41vw;
+  padding: 2rem 2rem;
+}
+
+section.curriculo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem 2rem;
+}
+
+.curriculo_div {
+  display: flex;
+  gap: 2rem;
+}
+
+section.projetos {
+}
+
+section.contato {
+}
+
+.projeto_01 {
+  display: inline-block;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 0px black;
+}
+
+section#img_01 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(90deg, rgba(102,124,137,1) 0%, rgba(102,124,137,1) 27%, rgba(255,255,255,1) 77%);
+  animation: animate 10s ease infinite;
+  background-size: 600% 600%;
+}
+
+footer {
+  background: #667c89;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.h5_Contato{
+
+}
+
+.h6_projetos {
+  font-size: 1.4rem;
+  margin-right: 3.2rem ;
+  margin-left: 3.2rem ;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: snow;
+}
+
+p.p_projetos {
+  margin-right: 3.4rem ;
+  margin-left: 3.4rem ;
+  color: snow;
+}
+
+.div_contato1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.div_contato2{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.img_git{
+  height: 10rem;
+}
+
+.img_Ldn{
+  height: 10rem;
+}
+
+.div_span{
+  display: grid;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.span_div{
+  color: red;
+  text-decoration: line-through;
+}
+
+@keyframes animate {
+ 
+  27% {
+    background-position: 0 0;
+  }
+  77% {
+   background-position: 100% 0;
+  }
+}
+
+@media (max-width: 800px) {
+  div.div_sobre_central{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
