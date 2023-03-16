@@ -40,7 +40,7 @@ a {
 .a_ul{
   text-decoration: none;
   color: black;
-  padding: 0.7rem;
+  padding: 0.4rem;
   font-family:var(--fonte2);
   border: 2px solid #667c89;
   border-radius: 9px;
@@ -134,14 +134,7 @@ h5 {
   font-family: 'Baloo'
 }
 
-.h5_Formações{
-}
-
-.h5_Historico{
-}
-
 .img_perfil {
-  margin-left: 3rem;
   margin-top: 1rem;
 }
 
@@ -215,10 +208,6 @@ footer {
   color: white;
   padding: 1rem;
   text-align: center;
-}
-
-.h5_Contato{
-
 }
 
 .h6_projetos {
