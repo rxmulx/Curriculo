@@ -272,5 +272,14 @@ p.p_projetos {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
+    justify-content: center;
+  }
+
+  section.sobre{
+    background: linear-gradient(90deg, rgba(102,124,137,1) 0%, rgba(102,124,137,1) 27%, rgba(255,255,255,1) 77%);
+    animation: animate 10s ease infinite;
+    background-size: 600% 600%;
+    height: 41vw;
+    padding: 5rem 2rem;
   }
 }
